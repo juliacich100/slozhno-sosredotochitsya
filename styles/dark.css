@@ -10,3 +10,17 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root .theme_dark {
+  /* Дублируем переменные для тёмной темы */
+  --bg-cover: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
+  --hover-border-color: #FF007066;
+  --background-text-color: #000028;
+  --header-button-color: #FF0070;
+  --main-text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --headings-color: #FF0070;
+  --title-color: #DB00FF;
+  --visibility: visible;
+}
