@@ -59,7 +59,7 @@
 
 .header__theme-menu-button {
   height: 26px;
-  padding: 1px 13px;
+  padding: 2.3px 13px;
   display: inline-flex;
   background-color: transparent;
   text-transform: lowercase;
@@ -76,6 +76,10 @@
 .header__theme-menu-button:focus-visible {
   outline: none;
   border-bottom: 1px solid var(--header-button-color);
+}
+
+.header__theme-menu-button:active {
+  border: 1px solid var(--header-button-color);
 }
 
 .header__theme-menu-button_active {
