@@ -216,10 +216,6 @@ img {
   justify-content: center;
 }
 
-.footer__title {
-  height: min-content
-}
-
 @media (width >= 768px) {
   .header {
     padding: var(--unit-m);
@@ -231,7 +227,7 @@ img {
     font-size: var(--large-font-size);
   }
   .header__subtitle {
-    min-width: 364px;
+    width: 364px;
   }
   .header__rec-lamp {
     top: var(--unit-m);
